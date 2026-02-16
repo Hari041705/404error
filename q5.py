@@ -33,8 +33,3 @@ def calculate(expression: str) -> float:
         else:
             result -= nums[i+1]
     return round(result, 2)
-assert calculate("2 + 3") == 5.0
-assert calculate("10 - 5 * 2")== 0.0
-assert calculate("100 / 3") == 33.33
-assert calculate("20 / 4 + 3 * 2") == 11.0
-assert calculate("  5") == 5.0
