@@ -9,4 +9,3 @@ def get_ticket_price(age: int, is_student: bool) -> int:
             return 12
         else:
             return 15
-print(get_ticket_price(10, False))  
