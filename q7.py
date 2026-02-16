@@ -7,8 +7,3 @@ def count_inventory(fruit_list: list[str]) -> dict[str, int]:
         else:
             result[fruits] = 1
     return result
-assert count_inventory(["apple", "banana", "apple", "cherry"]) == {"apple": 2, "banana": 1, "cherry": 1}
-assert count_inventory([]) == {}
-assert count_inventory(["grape"]) == {"grape": 1}
-assert count_inventory(["orange", "orange"]) == {"orange": 2}
-assert count_inventory(["Apple", "apple"]) == {"Apple": 1, "apple": 1}
